@@ -34,7 +34,7 @@ Download: ``` $ pip install mediapipe ```
 ## How it Works
 To properly unimodally interpret live camera facial expressions, the following applications were integrated into the tool:
 
-1. ```cv2``` module library was utilized to capture the live camera feed and turn said captured images and video to modifiable data, by storing said media into an object with methods. Upon displaying captured data using ```cv2.imshow('Image', image)```, an application window showcasing said photo-video inputs will be displayed, albeit with additional tweaks or changes to the data using methods.
+1. The ```opencv```'s ```cv2``` module library was utilized to capture the live camera feed and turn said captured images and video to modifiable data, by storing said media into an object with methods. Upon displaying captured data using ```cv2.imshow('Image', image)```, an application window showcasing said photo-video inputs will be displayed, albeit with additional tweaks or changes to the data using methods.
 
 * *also provides dynamic UI support to be layered on top of any captured photo-video feed, which will be added to the windowed outputted display once run. Methods such as ```cv2.putText``` and ```cv2.rectangle``` are examples of such UI modification methods.*
 
