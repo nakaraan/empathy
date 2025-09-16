@@ -110,7 +110,7 @@ with mp_face_detection.FaceDetection(model_selection=1, min_detection_confidence
           cv2.circle(image, (x, y), 1, (144, 238, 144), -1)
           # print("x, y", x, y) # uncomment to see landmark coordinates
           
-    # Inside your loop, after detection:
+    # For persistent emotion display
     if dominant:
         last_emotion = dominant
         last_time = time.time()
